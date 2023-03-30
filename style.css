@@ -1,5 +1,16 @@
-header {
-    background-color: #90CCBE;
-    color: #807155;
+:root {
+   --branco-princpal: #FFFFFF;
+   --cor-segundaria:  #807155;
+   --cor-de-fundo: #FFFFFF;
 
+}
+
+body {
+
+   background-color: var(--cor-de-fundo);
+}
+
+* {
+ margin: 0; 
+ padding: 0;
 }
